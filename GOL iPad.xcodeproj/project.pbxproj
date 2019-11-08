@@ -16,6 +16,7 @@
 		FAC205852375E2BA00FED5D6 /* GOL_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC205842375E2BA00FED5D6 /* GOL_iPadTests.swift */; };
 		FAC205902375E2BA00FED5D6 /* GOL_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */; };
 		FAC2059E2375E4FB00FED5D6 /* Colony.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2059D2375E4FB00FED5D6 /* Colony.swift */; };
+		FAC205A02375E7C600FED5D6 /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2059F2375E7C600FED5D6 /* Coordinate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_iPadUITests.swift; sourceTree = "<group>"; };
 		FAC205912375E2BA00FED5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC2059D2375E4FB00FED5D6 /* Colony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colony.swift; sourceTree = "<group>"; };
+		FAC2059F2375E7C600FED5D6 /* Coordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA65FBD82375E82000F9DDF9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2059F2375E7C600FED5D6 /* Coordinate.swift */,
+				FAC2059D2375E4FB00FED5D6 /* Colony.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FAC205612375E2B700FED5D6 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +112,7 @@
 		FAC2056C2375E2B800FED5D6 /* GOL iPad */ = {
 			isa = PBXGroup;
 			children = (
+				FA65FBD82375E82000F9DDF9 /* Models */,
 				FAC2056D2375E2B800FED5D6 /* AppDelegate.swift */,
 				FAC2056F2375E2B800FED5D6 /* SceneDelegate.swift */,
 				FAC205712375E2B800FED5D6 /* ContentView.swift */,
@@ -108,7 +120,6 @@
 				FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */,
 				FAC2057B2375E2B900FED5D6 /* Info.plist */,
 				FAC205752375E2B900FED5D6 /* Preview Content */,
-				FAC2059D2375E4FB00FED5D6 /* Colony.swift */,
 			);
 			path = "GOL iPad";
 			sourceTree = "<group>";
@@ -274,6 +285,7 @@
 				FAC205702375E2B800FED5D6 /* SceneDelegate.swift in Sources */,
 				FAC205722375E2B800FED5D6 /* ContentView.swift in Sources */,
 				FAC2059E2375E4FB00FED5D6 /* Colony.swift in Sources */,
+				FAC205A02375E7C600FED5D6 /* Coordinate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
