@@ -22,16 +22,15 @@ struct Colony: CustomStringConvertible{
         for row in 0...size-1{
             for col in 0...size-1{
                 if isCellAlive(row, col){
-                    text += "\u{2B1C}"
+                    text += " * "
                 }else{
-                    text += "\u{2B1B}"
+                    text += " _ "
                 }
             }
             text += "\n"
         }
         return text
     }
-    
     mutating func setCellsFroomCoors(_ data: [Coordinate]){
         clear(); aliveCells = Set(data)
     }

@@ -7,7 +7,6 @@
 //
 import Foundation
 
-//Coordinate.swift
 struct Coordinate: CustomStringConvertible, Hashable{
     let row: Int
     let col: Int
