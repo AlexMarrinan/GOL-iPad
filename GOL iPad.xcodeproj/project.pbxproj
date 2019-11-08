@@ -15,6 +15,7 @@
 		FAC2057A2375E2B900FED5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */; };
 		FAC205852375E2BA00FED5D6 /* GOL_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC205842375E2BA00FED5D6 /* GOL_iPadTests.swift */; };
 		FAC205902375E2BA00FED5D6 /* GOL_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */; };
+		FAC2059E2375E4FB00FED5D6 /* Colony.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2059D2375E4FB00FED5D6 /* Colony.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAC2058B2375E2BA00FED5D6 /* GOL iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOL iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_iPadUITests.swift; sourceTree = "<group>"; };
 		FAC205912375E2BA00FED5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2059D2375E4FB00FED5D6 /* Colony.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colony.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */,
 				FAC2057B2375E2B900FED5D6 /* Info.plist */,
 				FAC205752375E2B900FED5D6 /* Preview Content */,
+				FAC2059D2375E4FB00FED5D6 /* Colony.swift */,
 			);
 			path = "GOL iPad";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				FAC2056E2375E2B800FED5D6 /* AppDelegate.swift in Sources */,
 				FAC205702375E2B800FED5D6 /* SceneDelegate.swift in Sources */,
 				FAC205722375E2B800FED5D6 /* ContentView.swift in Sources */,
+				FAC2059E2375E4FB00FED5D6 /* Colony.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
