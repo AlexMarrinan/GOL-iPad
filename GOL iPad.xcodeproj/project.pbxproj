@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC2056E2375E2B800FED5D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2056D2375E2B800FED5D6 /* AppDelegate.swift */; };
+		FAC205702375E2B800FED5D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2056F2375E2B800FED5D6 /* SceneDelegate.swift */; };
+		FAC205722375E2B800FED5D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC205712375E2B800FED5D6 /* ContentView.swift */; };
+		FAC205742375E2B900FED5D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC205732375E2B900FED5D6 /* Assets.xcassets */; };
+		FAC205772375E2B900FED5D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC205762375E2B900FED5D6 /* Preview Assets.xcassets */; };
+		FAC2057A2375E2B900FED5D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */; };
+		FAC205852375E2BA00FED5D6 /* GOL_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC205842375E2BA00FED5D6 /* GOL_iPadTests.swift */; };
+		FAC205902375E2BA00FED5D6 /* GOL_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC205812375E2BA00FED5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC205622375E2B700FED5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC205692375E2B800FED5D6;
+			remoteInfo = "GOL iPad";
+		};
+		FAC2058C2375E2BA00FED5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC205622375E2B700FED5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC205692375E2B800FED5D6;
+			remoteInfo = "GOL iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC2056A2375E2B800FED5D6 /* GOL iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GOL iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC2056D2375E2B800FED5D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC2056F2375E2B800FED5D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC205712375E2B800FED5D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAC205732375E2B900FED5D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC205762375E2B900FED5D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAC205792375E2B900FED5D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC2057B2375E2B900FED5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC205802375E2BA00FED5D6 /* GOL iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOL iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC205842375E2BA00FED5D6 /* GOL_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_iPadTests.swift; sourceTree = "<group>"; };
+		FAC205862375E2BA00FED5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC2058B2375E2BA00FED5D6 /* GOL iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GOL iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GOL_iPadUITests.swift; sourceTree = "<group>"; };
+		FAC205912375E2BA00FED5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC205672375E2B800FED5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2057D2375E2BA00FED5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC205882375E2BA00FED5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC205612375E2B700FED5D6 = {
+			isa = PBXGroup;
+			children = (
+				FAC2056C2375E2B800FED5D6 /* GOL iPad */,
+				FAC205832375E2BA00FED5D6 /* GOL iPadTests */,
+				FAC2058E2375E2BA00FED5D6 /* GOL iPadUITests */,
+				FAC2056B2375E2B800FED5D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC2056B2375E2B800FED5D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2056A2375E2B800FED5D6 /* GOL iPad.app */,
+				FAC205802375E2BA00FED5D6 /* GOL iPadTests.xctest */,
+				FAC2058B2375E2BA00FED5D6 /* GOL iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC2056C2375E2B800FED5D6 /* GOL iPad */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2056D2375E2B800FED5D6 /* AppDelegate.swift */,
+				FAC2056F2375E2B800FED5D6 /* SceneDelegate.swift */,
+				FAC205712375E2B800FED5D6 /* ContentView.swift */,
+				FAC205732375E2B900FED5D6 /* Assets.xcassets */,
+				FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */,
+				FAC2057B2375E2B900FED5D6 /* Info.plist */,
+				FAC205752375E2B900FED5D6 /* Preview Content */,
+			);
+			path = "GOL iPad";
+			sourceTree = "<group>";
+		};
+		FAC205752375E2B900FED5D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAC205762375E2B900FED5D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAC205832375E2BA00FED5D6 /* GOL iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC205842375E2BA00FED5D6 /* GOL_iPadTests.swift */,
+				FAC205862375E2BA00FED5D6 /* Info.plist */,
+			);
+			path = "GOL iPadTests";
+			sourceTree = "<group>";
+		};
+		FAC2058E2375E2BA00FED5D6 /* GOL iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC2058F2375E2BA00FED5D6 /* GOL_iPadUITests.swift */,
+				FAC205912375E2BA00FED5D6 /* Info.plist */,
+			);
+			path = "GOL iPadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC205692375E2B800FED5D6 /* GOL iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC205942375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPad" */;
+			buildPhases = (
+				FAC205662375E2B800FED5D6 /* Sources */,
+				FAC205672375E2B800FED5D6 /* Frameworks */,
+				FAC205682375E2B800FED5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GOL iPad";
+			productName = "GOL iPad";
+			productReference = FAC2056A2375E2B800FED5D6 /* GOL iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC2057F2375E2BA00FED5D6 /* GOL iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC205972375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPadTests" */;
+			buildPhases = (
+				FAC2057C2375E2BA00FED5D6 /* Sources */,
+				FAC2057D2375E2BA00FED5D6 /* Frameworks */,
+				FAC2057E2375E2BA00FED5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC205822375E2BA00FED5D6 /* PBXTargetDependency */,
+			);
+			name = "GOL iPadTests";
+			productName = "GOL iPadTests";
+			productReference = FAC205802375E2BA00FED5D6 /* GOL iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC2058A2375E2BA00FED5D6 /* GOL iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC2059A2375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPadUITests" */;
+			buildPhases = (
+				FAC205872375E2BA00FED5D6 /* Sources */,
+				FAC205882375E2BA00FED5D6 /* Frameworks */,
+				FAC205892375E2BA00FED5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC2058D2375E2BA00FED5D6 /* PBXTargetDependency */,
+			);
+			name = "GOL iPadUITests";
+			productName = "GOL iPadUITests";
+			productReference = FAC2058B2375E2BA00FED5D6 /* GOL iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC205622375E2B700FED5D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Alex Marrinan";
+				TargetAttributes = {
+					FAC205692375E2B800FED5D6 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					FAC2057F2375E2BA00FED5D6 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FAC205692375E2B800FED5D6;
+					};
+					FAC2058A2375E2BA00FED5D6 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = FAC205692375E2B800FED5D6;
+					};
+				};
+			};
+			buildConfigurationList = FAC205652375E2B700FED5D6 /* Build configuration list for PBXProject "GOL iPad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC205612375E2B700FED5D6;
+			productRefGroup = FAC2056B2375E2B800FED5D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC205692375E2B800FED5D6 /* GOL iPad */,
+				FAC2057F2375E2BA00FED5D6 /* GOL iPadTests */,
+				FAC2058A2375E2BA00FED5D6 /* GOL iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC205682375E2B800FED5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2057A2375E2B900FED5D6 /* LaunchScreen.storyboard in Resources */,
+				FAC205772375E2B900FED5D6 /* Preview Assets.xcassets in Resources */,
+				FAC205742375E2B900FED5D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2057E2375E2BA00FED5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC205892375E2BA00FED5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC205662375E2B800FED5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC2056E2375E2B800FED5D6 /* AppDelegate.swift in Sources */,
+				FAC205702375E2B800FED5D6 /* SceneDelegate.swift in Sources */,
+				FAC205722375E2B800FED5D6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC2057C2375E2BA00FED5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC205852375E2BA00FED5D6 /* GOL_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC205872375E2BA00FED5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC205902375E2BA00FED5D6 /* GOL_iPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC205822375E2BA00FED5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC205692375E2B800FED5D6 /* GOL iPad */;
+			targetProxy = FAC205812375E2BA00FED5D6 /* PBXContainerItemProxy */;
+		};
+		FAC2058D2375E2BA00FED5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC205692375E2B800FED5D6 /* GOL iPad */;
+			targetProxy = FAC2058C2375E2BA00FED5D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC205782375E2B900FED5D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC205792375E2B900FED5D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC205922375E2BA00FED5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC205932375E2BA00FED5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC205952375E2BA00FED5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GOL iPad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GOL iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC205962375E2BA00FED5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"GOL iPad/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "GOL iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC205982375E2BA00FED5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GOL iPadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOL iPad.app/GOL iPad";
+			};
+			name = Debug;
+		};
+		FAC205992375E2BA00FED5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GOL iPadTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GOL iPad.app/GOL iPad";
+			};
+			name = Release;
+		};
+		FAC2059B2375E2BA00FED5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GOL iPadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GOL iPad";
+			};
+			name = Debug;
+		};
+		FAC2059C2375E2BA00FED5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "GOL iPadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-Marrinan.GOL-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GOL iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC205652375E2B700FED5D6 /* Build configuration list for PBXProject "GOL iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC205922375E2BA00FED5D6 /* Debug */,
+				FAC205932375E2BA00FED5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC205942375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC205952375E2BA00FED5D6 /* Debug */,
+				FAC205962375E2BA00FED5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC205972375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC205982375E2BA00FED5D6 /* Debug */,
+				FAC205992375E2BA00FED5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC2059A2375E2BA00FED5D6 /* Build configuration list for PBXNativeTarget "GOL iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC2059B2375E2BA00FED5D6 /* Debug */,
+				FAC2059C2375E2BA00FED5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC205622375E2B700FED5D6 /* Project object */;
+}
