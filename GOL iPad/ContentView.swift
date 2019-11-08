@@ -9,7 +9,8 @@
 import SwiftUI
 
 struct ContentView: View {
-    var colony = Colony("Test",10)
+    //prints colony test
+    var colony = Colony("Test",20)
     var body: some View {
         Text(colony.description)
     }
