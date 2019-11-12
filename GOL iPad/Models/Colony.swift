@@ -10,12 +10,10 @@ import SwiftUI
 
 struct Colony: CustomStringConvertible{
     var aliveCells: Set<Coordinate> = []
-    private (set) var name: String
     private (set) var generationNumber = 0
     var size: Int
-    init(_ name: String, _ size: Int){
+    init(_ size: Int){
         self.size = size
-        self.name = name
     }
     var description: String{
         var text = "Generation: \(generationNumber)\n"
@@ -34,8 +32,12 @@ struct Colony: CustomStringConvertible{
     mutating func setCellsFroomCoors(_ data: [Coordinate]){
         clear(); aliveCells = Set(data)
     }
-    mutating func setName(_ newName: String){
-        name = newName
+    mutating func changeCellState(_ row: Int, _ col: Int){
+        if isCellAlive(row,col){
+            setCellDead(row,col)
+        }else{
+            setCellAlive(row,col)
+        }
     }
     mutating func clear(){
         aliveCells = []
@@ -86,14 +88,13 @@ struct Colony: CustomStringConvertible{
         let oldAliveCells = aliveCells
         for c in cellsToCheck{
             switch (aliveNeighborsCountWrapping(c.row, c.col, set: oldAliveCells)){
-            case let a where a<2: setCellDead(c.row, c.col)
-            case 3: setCellAlive(c.row,c.col)
-            case let a where a>3: setCellDead(c.row, c.col)
+                case let a where a<2: setCellDead(c.row, c.col)
+                case 3: setCellAlive(c.row,c.col)
+                case let a where a>3: setCellDead(c.row, c.col)
             default: break
             }
         }
         generationNumber += 1
-        print(self)
     }
 }
 

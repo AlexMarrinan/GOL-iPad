@@ -10,9 +10,36 @@ import SwiftUI
 
 struct ContentView: View {
     //prints colony test
-    var colony = Colony("Test",20)
+    @State var colony = Colony(10)
+    
     var body: some View {
-        Text(colony.description)
+        VStack{
+            Text("Generatio: \(colony.generationNumber)")
+            ForEach(0..<colony.size, id: \.self){ row in
+                HStack{
+                    ForEach(0..<self.colony.size, id: \.self){ col in
+                        Button(action: {
+                            self.colony.changeCellState(row, col)
+                        }) {
+                            if self.colony.isCellAlive(row, col){
+                                Rectangle()
+                                    .fill(Color.yellow)
+                                    .frame(width: 20, height: 20)
+                            }else{
+                                Rectangle()
+                                    .fill(Color.gray)
+                                    .frame(width: 20, height: 20)
+                            }
+                        }
+                    }
+                }
+            }
+            Button(action: {
+                self.colony.wrappingEvolve()
+            }) {
+                Text("Evolve")
+            }
+        }
     }
 }
 
